@@ -40,7 +40,7 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_core.runnables import RunnableParallel
 from langchain_openai import ChatOpenAI
 
-PINECONE_KEY =  "b3d91009-fae8-4f09-b32d-7959b043996a"
+PINECONE_KEY =  "%%%%%%"
 PINECONE_INDEX_NAME =  'moviefy'
 OPENAI_KEY =  "%%%%%"
 
