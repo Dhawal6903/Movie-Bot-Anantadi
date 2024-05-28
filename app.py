@@ -42,7 +42,7 @@ from langchain_openai import ChatOpenAI
 
 PINECONE_KEY =  "b3d91009-fae8-4f09-b32d-7959b043996a"
 PINECONE_INDEX_NAME =  'moviefy'
-OPENAI_KEY =  "sk-proj-wjhlw45dvsRqQyuMMERWT3BlbkFJvS1rCNcHX0qScJcE7WSx"
+OPENAI_KEY =  "%%%%%"
 
 document_content_description = "Brief overview of a movie, along with keywords"
 def format_docs(docs):
@@ -138,7 +138,7 @@ def create_response(input):
     allowed_comparators=allowed_comparators,
     examples=examples,
         )
-    openai_key = "sk-proj-wjhlw45dvsRqQyuMMERWT3BlbkFJvS1rCNcHX0qScJcE7WSx"
+    openai_key = "%%%%%%"
     query_model = ChatOpenAI(
             model='gpt-3.5-turbo-0125',
             temperature=0,
