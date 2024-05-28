@@ -3,7 +3,7 @@ import requests
 
 # Define your TMDb API base URL and your API key
 base_url = "https://api.themoviedb.org/3"
-api_key = "6525fa4a293f94e7a915ca79bc6e5c24"
+api_key = "%%%%"
 
 # Define the endpoints you want to query
 endpoints = [
